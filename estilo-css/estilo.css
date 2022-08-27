@@ -2,6 +2,7 @@ body{
     margin: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: rgb(238, 228, 201);
    
     
    
@@ -39,7 +40,7 @@ ul,li,a {
     color: rgb(146, 104, 55);
     padding-right: 5px;
 }
-a:hover{
+#navegação a:hover{
     color: white;
     display: flex;
     justify-content: center;
@@ -59,6 +60,7 @@ bottom: 180px;
     float: left;
     margin-right: 20px;
     margin-bottom: 15px;
+    display: block;
 }
 aside{
     width: 403px;
@@ -70,7 +72,7 @@ aside{
     margin-top: 15px;
     width: 403px;
     height: 150px;
-    background-color: #dbd1b7;
+    background-color: rgb(146, 125, 96);
 }
 form h3{
     font-size: 25px;
@@ -89,19 +91,66 @@ form .botao{
 form .botao:hover{
     width: auto;
     height: 35px;
-    background-color: rgba(124, 57, 57, 0.589);
+    background-color: rgba(161, 84, 84, 0.377);
     color: white;
     border-radius: 2px;
     
 }
-#galeria-de-fotos{
+#galeria{
+    background: rgb(146, 125, 96);
+   
+}
+#galeria-de-fotos a{
 display: block;
-background: url(../imagens/fundo-foto.png) no-repeat ;
-clear: both;
+background:  url(../imagens/fundo-foto.png) no-repeat ;
+border: 0px solid red;
+float: left;
+padding: 15px 15px 18px 15px;
+margin: 8px 0px 0px 20px;
+
 
 }
-#galeria{
-    background: #dbd1b7;
-    margin-top: 15px ;
+#galeria-de-fotos img{
+    margin-left: 2px;
+    margin-top: 3px;
+}
+#galeria-de-fotos h2{
+  
+}
+#video{
+    margin: 0px 15px 0 0;
+}
+#postagens{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+}
+#postagens h3{
+    color: rgb(17, 100, 17);
+}
+#mapa{
+    margin: 0 7.5px 0px 0px;
+}
+
+#contato{
+    border: 0px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 500px;
+    width: 500px;
+    
     clear: both;
+    float: left;
+}
+#contato h2{
+    background: rgb(146, 125, 96) ;
+    color: black;
+    
+}
+#logolink a{
+    display: none;
+    animation: none;
+
 }
