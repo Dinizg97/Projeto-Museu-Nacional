@@ -70,11 +70,38 @@ aside{
     margin-top: 15px;
     width: 403px;
     height: 150px;
-    background-color: rgb(177, 161, 128);
+    background-color: #dbd1b7;
 }
 form h3{
     font-size: 25px;
     margin: 10px;
     padding-top: 15px;
-    color: rgb(107, 76, 40);
+    color: rgb(0, 0, 0);
+}
+form .botao{
+    width: auto;
+    height: 35px;
+    background-color: rgba(124, 57, 57, 0.664);
+    color: white;
+    border-radius: 2px;
+    
+}
+form .botao:hover{
+    width: auto;
+    height: 35px;
+    background-color: rgba(124, 57, 57, 0.589);
+    color: white;
+    border-radius: 2px;
+    
+}
+#galeria-de-fotos{
+display: block;
+background: url(../imagens/fundo-foto.png) no-repeat ;
+clear: both;
+
+}
+#galeria{
+    background: #dbd1b7;
+    margin-top: 15px ;
+    clear: both;
 }
